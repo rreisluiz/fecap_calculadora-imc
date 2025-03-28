@@ -13,6 +13,27 @@
         android:theme="@style/Theme.FecapCalculadoraIMC"
         tools:targetApi="31">
         <activity
+            android:name=".ObesidadeGrau3"
+            android:exported="false" />
+        <activity
+            android:name=".ObesidadeGrau2"
+            android:exported="false" />
+        <activity
+            android:name=".ObesidadeGrau1"
+            android:exported="false" />
+        <activity
+            android:name=".Sobrepeso"
+            android:exported="false" />
+        <activity
+            android:name=".PesoNormal"
+            android:exported="false" />
+        <activity
+            android:name=".AbaixoDoPeso"
+            android:exported="false" />
+        <activity
+            android:name=".CalculoIMCActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

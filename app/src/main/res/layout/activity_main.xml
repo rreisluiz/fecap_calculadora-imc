@@ -7,13 +7,31 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginBottom="28dp"
+        android:contentDescription="Logo FECAP"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/btnCalculadoraIMC"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.83"
+        android:src="@drawable/logo_fecap" />
+
+    <Button
+        android:id="@+id/btnCalculadoraIMC"
+        android:layout_width="363dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="268dp"
+        android:backgroundTint="@color/primaryColor"
+        android:text="Calculadora IMC"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

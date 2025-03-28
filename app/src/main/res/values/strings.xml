@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">FecapCalculadoraIMC</string>
+
+    <string name="textAbaixoDoPeso">Abaixo do Peso</string>
+    <string name="textPesoNormal">Peso Normal</string>
+    <string name="textSobrepeso">Sobrepeso</string>
+    <string name="textObesidadeGrau1">Obesidade Grau 1</string>
+    <string name="textObesidadeGrau2">Obesidade Grau 2</string>
+    <string name="textObesidadeGrau3">Obesidade Grau 3</string>
+
+    <string name="fraseAbaixoDoPeso">Seu corpo é capaz de coisas incríveis! Vamos fortalecê-lo com nutrição e cuidado para alcançar seu potencial máximo!</string>
+    <string name="frasePesoNormal">Parabéns! Você está no caminho certo. Continue cuidando da sua saúde com equilíbrio e amor próprio!</string>
+    <string name="fraseSobrepeso">Cada jornada começa com um passo! Você tem tudo o que precisa para se tornar a melhor versão de si mesmo. Vamos juntos?</string>
+    <string name="fraseObesidadeGrau1">Grandes mudanças começam com pequenas escolhas. Hoje é o dia perfeito para investir em você e na sua saúde!</string>
+    <string name="fraseObesidadeGrau2">Você é mais forte do que imagina! Com foco e determinação, cada passo te levará mais perto dos seus objetivos.</string>
+    <string name="fraseObesidadeGrau3">Sua saúde é sua maior riqueza, e nunca é tarde para recomeçar. Pequenas mudanças hoje podem transformar seu amanhã!</string>
 </resources>
